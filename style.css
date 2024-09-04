@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url('https://www.gamewallpapers.com/img_script/wallpaper_dir/img.php?src=wallpaper_elden_ring_10_2560x1080.jpg&height=506&sharpen');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+
+
+.blur-container {
+    background: rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    border-radius: 15px;
+    backdrop-filter: blur(10px);
+    border-radius: 0px;
+}
+
+.clock-container {
+    display: flex;
+    gap: 20px;
+}
+
+.time-box {
+    text-align: center;
+    border: none;
+    padding: 20px;
+    border-radius: 0px;
+    background-color: #20232a;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.time-value {
+    font-size: 3em;
+    color: white;
+}
+
+.time-label {
+    margin-top: 10px;
+    font-size: 1.2em;
+    color: white;
+}
